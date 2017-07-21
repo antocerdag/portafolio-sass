@@ -3,7 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
-
+body{
+	background-color:#E3E3E3;
+}
 nav{
 	background-color: rgba(0,0,0,0);
 	box-shadow: none;
@@ -22,7 +24,7 @@ nav{
 }
 
 .boton-buy{
-	background-color: $boton_magenta;
+	background-color: $color_magenta;
 	height: 43px;
     font-size:12px;
 	margin-right: 10px;
@@ -46,15 +48,16 @@ nav{
     position: absolute;
     top: 0px;
     width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 .slider {
 	.slides{
 		li{
-		height: 100vh;
+		height: 90vh;
+		background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
 		}
 	}
 }
@@ -66,6 +69,59 @@ nav{
 .text-slider2{
 	font-family: $font-zilla;
 }
+.boton-see{
+	background-color: $color_magenta;
+}
 .fa{
 	font-size:12px;
+}
+
+.caja{
+    background-color: white;
+    width: 90%;
+    z-index: 2;
+    position: relative;
+    top: 400px;
+    left: 5%;
+    border-radius: 7px;
+}
+
+.textolorem{
+	font-size:15px;
+    margin-top: 82px;
+    margin-bottom: 90px;
+}
+.iconos{
+	.tamanio-icon{
+		font-size: 52px;
+		margin-left: 39%;
+	}
+}
+
+.iconos{
+	.icono1{
+		color: $color_magenta;
+	}
+}
+
+.iconos{
+	.icono2{
+		color: $color_cyan;
+	}
+}
+
+.iconos{
+	.icono3{
+		color: $color_verde;
+	}
+}
+
+.txt-bajoicono{
+	font-size:19px;
+	font-family:$font-zilla;
+}
+
+.lorem2{
+	font-size:14px;
+	color:#E6E6E6;
 }

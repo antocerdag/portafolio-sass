@@ -6777,6 +6777,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin: 0;
   padding: 0; }
 
+body {
+  background-color: #E3E3E3; }
+
 nav {
   background-color: rgba(0, 0, 0, 0);
   box-shadow: none; }
@@ -6810,14 +6813,14 @@ nav {
 .slider {
   position: absolute;
   top: 0px;
-  width: 100%;
+  width: 100%; }
+
+.slider .slides li {
+  height: 90vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-
-.slider .slides li {
-  height: 100vh; }
 
 .text-slider1 {
   font-weight: 700;
@@ -6827,7 +6830,45 @@ nav {
 .text-slider2 {
   font-family: "Zilla Slab", serif; }
 
+.boton-see {
+  background-color: #E91E63; }
+
 .fa {
   font-size: 12px; }
+
+.caja {
+  background-color: white;
+  width: 90%;
+  z-index: 2;
+  position: relative;
+  top: 400px;
+  left: 5%;
+  border-radius: 7px; }
+
+.textolorem {
+  font-size: 15px;
+  margin-top: 82px;
+  margin-bottom: 90px; }
+
+.iconos .tamanio-icon {
+  font-size: 52px;
+  margin-left: 39%; }
+
+.iconos .icono1 {
+  color: #E91E63; }
+
+.iconos .icono2 {
+  color: #00BCD4; }
+
+.iconos .icono3 {
+  color: #4CAF50; }
+
+.txt-bajoicono {
+  font-size: 19px;
+  font-family: "Zilla Slab", serif; }
+
+.lorem2 {
+  font-size: 14px;
+  color: #E6E6E6; }
 
 /*# sourceMappingURL=main.css.map */
