@@ -1,1 +1,27 @@
-_bases.scss
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	background-color: transparent;
+	box-shadow: none;
+}
+.navbar-fixed .logo-hestia{
+	font-weight: 100;
+    font-size: 19px;
+    margin-left: 7%;
+    color: white;
+}
+
+.menu-txt{
+	font-weight:100;
+	font-size: 12px;
+	color: white;
+}
+
+.boton-buy{
+	background-color: #E91E63;
+	height: 43px;
+    width: 126px;
+    font-size:12px;
+}
