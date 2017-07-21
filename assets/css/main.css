@@ -6807,12 +6807,25 @@ nav {
   width: 20%; }
 
 /* CARRUSEL */
-.carousel {
+.slider {
   position: absolute;
-  height: 627px; }
+  top: 0px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-.carousel .carousel-slider .initialized {
-  background-attachment: fixed; }
+.slider .slides li {
+  height: 100vh; }
+
+.text-slider1 {
+  font-weight: 700;
+  font-size: 70px;
+  margin-top: 120px; }
+
+.text-slider2 {
+  font-family: "Zilla Slab", serif; }
 
 .fa {
   font-size: 12px; }
