@@ -87,10 +87,13 @@ nav{
 }
 
 .textolorem{
-	font-size:15px;
+    font-size: 16px;
     margin-top: 82px;
     margin-bottom: 90px;
+    color: rgba(128, 128, 128, 0.46);
+	line-height: inherit;
 }
+
 .iconos{
 	.tamanio-icon{
 		font-size: 52px;
@@ -124,4 +127,173 @@ nav{
 .lorem2{
 	font-size:14px;
 	color:#E6E6E6;
+}
+
+.foto-ciudad{
+    background-image: url(../img/img_city.jpg);
+    width: 143%;
+	height: 225vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: 173px;
+}
+
+.txt-who{
+    color: white;
+    font-size: 43px;
+    font-weight: bolder;
+    position: relative;
+    right: -3%;
+    top: 60px;
+	font-family: $font_zilla;
+}
+
+.bajada-who{
+    color: white;
+    width: 37%;
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 100;
+    position: relative;
+    right: -3%;
+    top: 81px;
+}
+
+.img-tablet{
+    width: 48%;
+    position: relative;
+    left: 46%;
+    bottom: 241px;
+}
+.img-productos{
+	width:40%;
+}
+
+.video{
+    position: relative;
+    left: 19%;
+    bottom: 188px;
+}
+
+.txt-prod{
+	font-family: $font_zilla;
+	font-weight: 900;
+}
+
+.bajada-prod{
+	font-size: 18px;
+    color: #a2a1a1;
+    font-weight: 100;
+}
+
+.img-card {
+	img{
+		width: 98%;
+	    position: relative;
+	    top: 31px;
+	    left: -6%;
+	    z-index: 1;
+	    border-radius: 5px;
+	}
+}
+
+.img-card {
+	img:hover{
+		transform: scale(1.15);
+		box-shadow: 0 1px 5px rgba(82, 80, 80, 0.55);
+	}
+}
+
+.img-card2 {
+	img{
+		width: 98%;
+	    position: relative;
+	    top: 31px;
+	    left: 1%;
+	    z-index: 1;
+	    border-radius: 5px;
+	}
+}
+
+.img-card2 {
+	img:hover{
+		transform: scale(1.15);
+		box-shadow: 0 1px 5px rgba(82, 80, 80, 0.55);
+	}
+}
+
+.img-card3 {
+	img{
+		width: 98%;
+	    position: relative;
+	    top: 31px;
+	    left: 7%;
+	    z-index: 1;
+	    border-radius: 5px;
+	}
+}
+
+.img-card3 {
+	img:hover{
+		transform: scale(1.15);
+		box-shadow: 0 1px 5px rgba(82, 80, 80, 0.55);
+	}
+}
+
+.img-card4 {
+	img{
+		width: 98%;
+	    position: relative;
+	    top: 31px;
+	    left: 13%;
+	    z-index: 1;
+	    border-radius: 5px;
+	}
+}
+
+.img-card4 {
+	img:hover{
+		transform: scale(1.15);
+		box-shadow: 0 1px 5px rgba(82, 80, 80, 0.55);
+	}
+}
+
+.tamanio-card{
+	width: 209px;
+    margin-left: -25px;
+}
+
+.tamanio-card1{
+	width: 209px;
+	margin-left: -13px;
+}
+.tamanio-card2{
+	width: 209px;
+	margin-left: -2px;
+}
+
+.tamanio-card3{
+	width: 209px;
+    margin-left: 10px;
+}
+
+.card{
+	.card-content{
+		.txt-magenta{
+			color: $color_magenta;
+			font-size:14px;
+			font-weight: 900;
+		}
+	}
+}
+.card-content{
+	.titulo-tarjeta{
+		font-family: $font_zilla;
+		color: #000000;
+	    font-size: 15px;
+	    font-weight: bolder;
+	}
 }

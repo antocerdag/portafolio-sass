@@ -2,3 +2,21 @@ $color_magenta: #E91E63;
 $font_zilla:'Zilla Slab', serif;
 $color_cyan:#00BCD4;
 $color_verde:#4CAF50;
+$img_city: url("../img/img_city.jpg");
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
