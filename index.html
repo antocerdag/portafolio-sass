@@ -12,57 +12,52 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	
- <!-- Dropdown Structure -->
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#">1 minute setup</a></li>
-    <li><a href="#">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#">three</a></li>
-  </ul>
-  <ul id="dropdown2" class="dropdown-content">
-    <li><a href="#">1 minute setup</a></li>
-    <li><a href="#">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#">three</a></li>
-  </ul>
   <nav>
     <div class="navbar-fixed">
-      <a href="#" class="brand-logo logo-hestia">Hestia Pro</a>
-      <ul class="right hide-on-med-and-down">
-       <li>
-       	<a class="dropdown-button menu-txt" href="#" data-activates="dropdown1">
-       		<i class="material-icons left">cloud</i>FEATURES<i class="material-icons right">arrow_drop_down</i>
-       		</a>
-       </li>
-       <li>
-       	<a class="dropdown-button menu-txt" href="#!" data-activates="dropdown2">
-       		<i class="material-icons left">list</i>SECTIONS<i class="material-icons right">arrow_drop_down</i>
-       	</a>
-       </li>
-       <li>
-       	<a href="#" class="menu-txt">
-       		<i class="material-icons left">shopping_basket</i>SHOP
-       	</a>
-       </li>
-       <li>
-       	<a href="#" class="menu-txt"><i class="material-icons left">description</i>BLOG
-       	</a>
-       </li>
-       <li>
-       	<a href="#" class="menu-txt"><i class="material-icons left">email</i>CONTACT
-       	</a>
-       </li>
-       <a type="button" class="waves-effect waves-red btn-large boton-buy">
-       	<i class="material-icons left icono-boton">shopping_cart</i>BUY NOW
-       </a>     
-     </ul>
+	      <a href="#" class="brand-logo logo-hestia">Hestia Pro</a>
+	      <ul class="right hide-on-med-and-down">
+		       <li>
+		       <div class="dropdown">
+		       	<a type="button" class="menu-txt dropbtn" href="#">
+		       		<i class="material-icons left">cloud</i>FEATURES
+		       		<i class="material-icons right">arrow_drop_down</i>
+		       		</a>
+		       		<div class="dropdown-content">
+					    	<a href="#">Link 1</a>
+					    	<a href="#">Link 2</a>
+					    	<a href="#">Link 3</a>
+						</div>
+		     	</div>
+		       </li>
+	       <li>
+	       	<a class="dropdown-button menu-txt" href="#!" data-activates="dropdown2">
+	       		<i class="material-icons left">list</i>SECTIONS<i class="material-icons right">arrow_drop_down</i>
+	       	</a>
+	       </li>
+	       <li>
+	       	<a href="#" class="menu-txt">
+	       		<i class="material-icons left">shopping_basket</i>SHOP
+	       	</a>
+	       </li>
+	       <li>
+	       	<a href="#" class="menu-txt"><i class="material-icons left">description</i>BLOG
+	       	</a>
+	       </li>
+	       <li>
+	       	<a href="#" class="menu-txt"><i class="material-icons left">email</i>CONTACT
+	       	</a>
+	       </li>
+	       <a type="button" class="waves-effect waves-red btn-small center-align boton-buy ">
+	       	<i class="material-icons left icono-boton center-align">shopping_cart</i>BUY NOW
+	       </a>     
+	     </ul>
+			
    </div>
    <!-- CARRUSEL -->
 
  <div class="carousel carousel-slider">
-    <a class="carousel-item" href="#one!"><img src="img/img_slider_1.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="img/img_slider_2.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="img/img_slider_2.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="img/img_slider_1.jpg"></a>
   </div>
 
  </nav>
