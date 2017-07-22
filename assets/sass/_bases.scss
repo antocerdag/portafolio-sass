@@ -177,7 +177,9 @@ nav{
     left: 19%;
     bottom: 188px;
 }
-
+.caja-gris{
+	background-color:#F0F0F0;
+}
 .txt-prod{
 	font-family: $font_zilla;
 	font-weight: 900;
@@ -263,20 +265,24 @@ nav{
 
 .tamanio-card{
 	width: 209px;
+	height: 65vh;
     margin-left: -25px;
 }
 
 .tamanio-card1{
 	width: 209px;
+	height: 65vh;
 	margin-left: -13px;
 }
 .tamanio-card2{
 	width: 209px;
+	height: 65vh;
 	margin-left: -2px;
 }
 
 .tamanio-card3{
 	width: 209px;
+	height: 65vh;
     margin-left: 10px;
 }
 
@@ -295,5 +301,28 @@ nav{
 		color: #000000;
 	    font-size: 15px;
 	    font-weight: bolder;
+	}
+}
+
+.txt-card{
+	font-weight: 100;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.card-footer{
+	.fa{
+		color: gray;
+    	font-size: 23px;
+    	margin-right: 21px;
+	}
+}
+
+.card-footer{
+	p{
+		margin-left: 11px;
+    	color: gray;
+    	font-size: 16px;
+    	font-weight: 100;
 	}
 }
