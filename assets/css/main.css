@@ -6934,7 +6934,7 @@ nav {
 
 .videoytb {
   width: 66%;
-  height: 100vh;
+  height: 69vh;
   margin-bottom: 15px; }
 
 .videoytb2 {
@@ -6970,7 +6970,7 @@ nav {
 .tamanio-card {
   position: relative;
   bottom: 27px;
-  height: 52vh;
+  height: 33vh;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px; }
 
@@ -7051,24 +7051,129 @@ nav {
 
 .foto-fila1 {
   width: 100%;
-  border-radius: 7px;
-  height: 59vh; }
+  border-radius: 7px; }
 
 .foto-fila2 {
   width: 100%;
-  border-radius: 7px;
-  height: 59vh; }
+  border-radius: 7px; }
 
 .foto-fila3 {
   width: 100%;
-  border-radius: 7px;
-  height: 59vh; }
+  border-radius: 7px; }
+
+#caja-color {
+  background-color: #E91E63;
+  width: 100%;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px; }
+
+#caja-color {
+  background-color: #E91E63;
+  width: 100%;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px; }
+
+#caja-color2 {
+  background-color: #00BCD4;
+  width: 61%;
+  margin-left: 20%;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px; }
+
+#caja-color3 {
+  background-color: #f44336;
+  width: 78%;
+  margin-left: 19%;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px; }
+
+#caja-color4 {
+  background-color: #E91E63;
+  width: 100%;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px; }
+
+#caja-color5 {
+  background-color: #00BCD4;
+  width: 100%;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px; }
+
+.margin-bot {
+  margin-bottom: 42px; }
+
+/* SECCION TEAM */
+.team {
+  background-color: white;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  top: 320px; }
+
+.perfiles {
+  display: inline-flex; }
+
+.perfiles img {
+  height: 24vh;
+  margin-left: 10%;
+  box-shadow: -10px 10px 15px #888888; }
+
+.texto-perfiles h5 {
+  font-size: 20px;
+  display: inline-table;
+  font-family: "Zilla Slab", serif;
+  font-weight: bolder; }
+.texto-perfiles h6 {
+  font-size: 14px;
+  position: absolute;
+  font-weight: 500; }
+.texto-perfiles p {
+  font-size: 13px;
+  position: relative;
+  top: 31px; }
+
+.redes {
+  margin-top: 44px; }
+
+.texto-perfiles .fa-facebook {
+  color: #3B5998;
+  font-size: 19px; }
+.texto-perfiles .fa-twitter {
+  color: #55ACEE;
+  font-size: 19px; }
+.texto-perfiles .fa-google {
+  color: #DD4B39;
+  font-size: 19px; }
+.texto-perfiles .fa-linkedin {
+  color: #0976B4;
+  font-size: 19px; }
+.texto-perfiles .fa-github {
+  color: #191919;
+  font-size: 19px; }
+.texto-perfiles .fa-dribbble {
+  color: #EC5E95;
+  font-size: 19px; }
+.texto-perfiles .fa-pinterest {
+  color: #D85459;
+  font-size: 19px; }
 
 .overlay {
   position: absolute;
   top: 133px;
   bottom: 0;
-  height: 27%;
+  height: 23%;
   width: 354px;
   opacity: 0;
   transition: .5s ease;
@@ -7090,5 +7195,33 @@ nav {
   font-size: 17px;
   font-family: "Zilla Slab", serif;
   font-weight: bold; }
+
+.overlay2 {
+  position: absolute;
+  top: 394px;
+  bottom: 0;
+  height: 35%;
+  width: 543px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(57, 57, 58, 0.67);
+  border-radius: 7px; }
+
+.cont:hover .overlay2 {
+  opacity: 1; }
+
+.overlay3 {
+  position: absolute;
+  top: 781px;
+  bottom: 0;
+  height: 23%;
+  width: 355px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(57, 57, 58, 0.67);
+  border-radius: 7px; }
+
+.cont:hover .overlay3 {
+  opacity: 1; }
 
 /*# sourceMappingURL=main.css.map */
