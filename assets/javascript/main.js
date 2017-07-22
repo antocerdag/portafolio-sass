@@ -1,5 +1,22 @@
 $(document).ready(function(){
-    
+    /* NAVBAR CAMBIO DE COLOR */
+     $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 300) {
+	    $(".navbar-fixed").css("background" , "white");
+	    $(".navbar-fixed").css("box-shadow" , "1px 5px 10px #888888");
+	    $(".logo-hestia").css("color" , "#494949");
+	    $(".menu-txt").css("color", "#494949");
+	  }
+
+	  else{
+		$(".navbar-fixed").css("background" , "transparent");
+		$(".navbar-fixed").css("box-shadow" , "none");
+		$(".logo-hestia").css("color" , "white");
+	    $(".menu-txt").css("color", "white");
+	  }
+  })
+
 
     /* DROPDOWN */
     $('.dropdown-button').dropdown({
