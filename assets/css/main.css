@@ -6940,14 +6940,19 @@ nav {
 .videoytb2 {
   width: 100%;
   height: 100vh;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  display: none; }
 
 /* SECCION CUATRO */
 .img-productos {
   width: 40%; }
 
-.caja-gris {
-  background-color: #F0F0F0; }
+.productos {
+  background-color: #F0F0F0;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  top: 360px; }
 
 .txt-prod {
   font-family: "Zilla Slab", serif;
@@ -6958,11 +6963,17 @@ nav {
   color: #a2a1a1;
   font-weight: 100; }
 
+.caja-productos {
+  margin-top: 60px; }
+
+.tamanio-card {
+  position: relative;
+  bottom: 27px;
+  height: 52vh; }
+
 .img-card img {
   width: 98%;
   position: relative;
-  top: 31px;
-  left: -6%;
   z-index: 1;
   border-radius: 5px; }
 
@@ -6973,8 +6984,6 @@ nav {
 .img-card2 img {
   width: 98%;
   position: relative;
-  top: 31px;
-  left: 1%;
   z-index: 1;
   border-radius: 5px; }
 
@@ -6985,8 +6994,6 @@ nav {
 .img-card3 img {
   width: 98%;
   position: relative;
-  top: 31px;
-  left: 7%;
   z-index: 1;
   border-radius: 5px; }
 
@@ -6997,34 +7004,12 @@ nav {
 .img-card4 img {
   width: 98%;
   position: relative;
-  top: 31px;
-  left: 13%;
   z-index: 1;
   border-radius: 5px; }
 
 .img-card4 img:hover {
   transform: scale(1.15);
   box-shadow: 0 1px 5px rgba(82, 80, 80, 0.55); }
-
-.tamanio-card {
-  width: 209px;
-  height: 38vh;
-  margin-left: -25px; }
-
-.tamanio-card1 {
-  width: 209px;
-  height: 38vh;
-  margin-left: -13px; }
-
-.tamanio-card2 {
-  width: 209px;
-  height: 38vh;
-  margin-left: -2px; }
-
-.tamanio-card3 {
-  width: 209px;
-  height: 38vh;
-  margin-left: 10px; }
 
 .card .card-content .txt-magenta {
   color: #E91E63;
