@@ -195,7 +195,7 @@ nav{
     display:none;
 }
 
-/* SECCION CUATRO */
+/* SECCION PRODUCTOS */
 .img-productos{
 	width:40%;
 }
@@ -211,6 +211,7 @@ nav{
 .txt-prod{
 	font-family: $font_zilla;
 	font-weight: 900;
+	font-size: 37px;
 }
 
 .bajada-prod{
@@ -227,6 +228,8 @@ nav{
 	position: relative;
     bottom: 27px;
     height: 52vh;
+	border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 .img-card {
 	img{
@@ -332,4 +335,31 @@ nav{
     	font-size: 16px;
     	font-weight: 100;
 	}
+}
+
+/* SECCION PORTFOLIO */
+
+.portfolio{
+	background-color:white;
+	width: 90%;
+    position: relative;
+    left: 5%;
+	top: 340px;
+}
+
+.foto-fila1{
+    width: 100%;
+    border-radius: 7px;
+    height: 59vh;
+}
+
+.foto-fila2{
+	width: 100%;
+    border-radius: 7px;
+    height: 59vh;
+}
+.foto-fila3{
+	width: 100%;
+    border-radius: 7px;
+    height: 59vh;
 }

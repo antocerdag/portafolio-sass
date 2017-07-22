@@ -1,0 +1,32 @@
+.overlay {
+    position: absolute;
+    top: 133px;
+    bottom: 0;
+    height: 27%;
+    width: 354px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(57, 57, 58, 0.67);
+    border-radius: 7px;
+}
+
+.cont:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text{
+  h5{
+    font-size:17px;
+    font-family: $font-zilla;
+    font-weight: bold;
+  }
+}
