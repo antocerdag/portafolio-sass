@@ -75,7 +75,7 @@ nav{
 .fa{
 	font-size:12px;
 }
-
+/* SECCION 2 */
 .caja{
     background-color: white;
     width: 90%;
@@ -83,7 +83,8 @@ nav{
     position: relative;
     top: 400px;
     left: 5%;
-    border-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 .textolorem{
@@ -127,18 +128,19 @@ nav{
 .lorem2{
 	font-size:14px;
 	color:#E6E6E6;
+	margin-bottom: 52px;
 }
-
-.foto-ciudad{
+/* SECCION TRES */
+.video{
+    width: 90%;
+    position: relative;
+    top: 380px;
+    left: 5%;
     background-image: url(../img/img_city.jpg);
-    width: 143%;
-	height: 225vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    right: 173px;
 }
 
 .txt-who{
@@ -152,8 +154,8 @@ nav{
 }
 
 .bajada-who{
-    color: white;
-    width: 37%;
+	color: white;
+    width: 68%;
     font-size: 19px;
     line-height: 23px;
     font-weight: 100;
@@ -163,20 +165,16 @@ nav{
 }
 
 .img-tablet{
-    width: 48%;
-    position: relative;
-    left: 46%;
-    bottom: 241px;
+	width: 100%;
+    margin-top: 30px;
+    margin-left: -9%;
+	margin-bottom: 50px;
 }
 .img-productos{
 	width:40%;
 }
 
-.video{
-    position: relative;
-    left: 19%;
-    bottom: 188px;
-}
+
 .caja-gris{
 	background-color:#F0F0F0;
 }
@@ -265,24 +263,24 @@ nav{
 
 .tamanio-card{
 	width: 209px;
-	height: 65vh;
+	height: 38vh;
     margin-left: -25px;
 }
 
 .tamanio-card1{
 	width: 209px;
-	height: 65vh;
+    height: 38vh;
 	margin-left: -13px;
 }
 .tamanio-card2{
 	width: 209px;
-	height: 65vh;
+    height: 38vh;
 	margin-left: -2px;
 }
 
 .tamanio-card3{
 	width: 209px;
-	height: 65vh;
+    height: 38vh;
     margin-left: 10px;
 }
 
