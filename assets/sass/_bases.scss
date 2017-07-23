@@ -210,7 +210,7 @@ nav{
 	width: 100%;
     height: 100vh;
     margin-bottom: 15px;
-    display:none;
+    
 }
 
 /* SECCION PRODUCTOS */
@@ -230,6 +230,7 @@ nav{
 	font-family: $font_zilla;
 	font-weight: 900;
 	font-size: 37px;
+	margin-top: 67px;
 }
 
 .bajada-prod{
@@ -643,4 +644,41 @@ nav{
 				color: #3C4858;
 			}
 		}
+}
+/* SECCION CLIENTES */
+.clientes{
+    background-color: white;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 280px;;
+}
+
+.foto-cliente{
+    width: 30%;
+    margin-top: 55px;
+    box-shadow: 0px 5px 15px #888888;
+}
+
+.nom-cliente{
+    font-size: 19px;
+    font-weight: 700;
+    font-family: "Zilla Slab", serif;
+    color: #3C4858;
+}
+.ocup-cliente{
+	font-size: 12px;
+    font-weight: 700;
+    color: gray;
+}
+
+.descrip{
+	font-size: 14px;
+    font-weight: 100;
+    color: gray;
+    width: 102%;
+    inline-size: 366px;
+    margin-top: 12px;
+    padding: 0px 16px 0 16px;
+	margin-bottom: 59px;
 }
