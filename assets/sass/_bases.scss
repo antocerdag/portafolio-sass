@@ -1013,7 +1013,7 @@ nav{
 	    color: white;
 	    padding: 10px;
 	    position: relative;
-	    left: -143px;
+	    left: 301px;
 	    font-weight: 100;
 	    font-size: 13px;
 	}
@@ -1021,4 +1021,13 @@ nav{
 		color:$color_magenta;
 		cursor: pointer;
 	}
+}
+
+.lineavert{
+	    width: 1px;
+    height: 15px;
+    background-color: white;
+    position: relative;
+    top: 60px;
+    left: 303px;
 }
