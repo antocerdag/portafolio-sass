@@ -7304,6 +7304,65 @@ nav {
   padding: 0px 16px 0 16px;
   margin-bottom: 59px; }
 
+/* SECCION SUBSCRIBE */
+.subscribe {
+  background-image: url("../img/about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  top: 260px; }
+
+.oversub {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 43, 43, 0.41); }
+
+.title-subs {
+  font-family: "Zilla Slab", serif;
+  color: white;
+  margin-top: 87px;
+  z-index: 1000; }
+
+.bajada-sub {
+  color: white;
+  font-size: 16px;
+  z-index: 1000; }
+
+.box-email {
+  width: 62%;
+  margin-left: 20%;
+  margin-bottom: 60px;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 45px;
+  z-index: 1000; }
+  .box-email .fa-envelope {
+    position: absolute;
+    right: 104%;
+    bottom: 77px;
+    font-size: 23px;
+    z-index: 1000; }
+  .box-email .caja-input {
+    width: 66%;
+    margin-left: 11%;
+    position: relative;
+    top: 21px;
+    z-index: 1000; }
+  .box-email .label-input {
+    position: relative;
+    bottom: 57px;
+    left: -24%;
+    z-index: 1000; }
+  .box-email .btn-subscribe {
+    background-color: #E91E63;
+    position: relative;
+    top: -53px;
+    left: 62%;
+    z-index: 1000; }
+
 .overlay {
   position: absolute;
   top: 133px;
