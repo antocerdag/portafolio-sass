@@ -841,3 +841,184 @@ nav{
 		color:black;
 	}
 }
+
+/* SECCION TOUCH */
+
+.touch{
+	background-image:$img_city;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width: 90%;
+    position: relative;
+    left: 5%;
+	top: 241px;
+}
+.tituloget{
+	font-family: $font_zilla;
+	font-weight:700;
+	color:white;
+	margin-top: 65px;
+    margin-left: 3%;
+}
+.bajadaget{
+    color: white;
+    width: 85%;
+    font-weight: 100;
+    margin-left: 4%;
+    font-size: 16px;
+}
+.find{
+	.fa-map-marker{
+		color:white;
+		margin-left: 3%;
+	    font-size: 36px;
+	    position: relative;
+	    top: 38px;
+	}
+	p{
+		color: white;
+	    margin-left: 9%;
+	    font-weight: 100;
+	}
+}
+.titulo1{
+	font-family: $font_zilla;
+	font-weight:700;
+	color:white;
+	margin-left: 9%;
+}
+
+.give{
+	.fa-mobile{
+		color:white;
+		margin-left: 3%;
+	    font-size: 36px;
+	    position: relative;
+	    top: 38px;
+	}
+	p{
+		color: white;
+	    margin-left: 9%;
+	    font-weight: 100;
+	}
+}
+.tarjeta-magenta{
+	border-radius: 5px;
+    width: 77%;
+    position: relative;
+    top: 56px;
+    z-index: 1;
+    left: 13%;
+    height: 14vh;
+    box-shadow: 0px 10px 15px #888888;
+}
+.titulo-contact{
+	font-family:$font_zilla;
+	color:white;
+	position: relative;
+    top: 33px;
+}
+.tarjetacontac{
+    height: 67vh;
+    width: 84%;
+    margin-left: 9%;
+    margin-bottom: 47px;
+}
+.inputs-tarjeta{
+    position: relative;
+    top: 70px;
+}
+
+/* FOOTER */
+
+.footer{
+	background-color:#323437;
+	width: 90%;
+    position: relative;
+    left: 5%;
+	top: 241px;
+}
+
+.titulosfooter{
+	font-family:$font_zilla;
+	color:white;
+	margin-left: -6%;
+}
+
+.text-footer{
+	font-size: 14px;
+    color: gray;
+    width: 130%;
+    font-weight: 100;
+    margin-top: 14px;
+}
+
+.social{
+	.fa{
+		color:white;
+		font-size: 21px;
+	}
+}
+
+.txt-social{
+	width: 155%;
+    font-size: 13px;
+    color: #8B8C8C;
+}
+
+.txt-social2{
+	width: 155%;
+    font-size: 11px;
+    color: #8B8C8C;
+}
+
+.instafoto{
+    width: 134%;
+    border-radius: 7px;
+}
+
+.lineadelgada{
+	position: relative;
+    width: 133%;
+    height: 1px;
+    background-color: white;
+    right: 17%;
+	margin-top: 51px;
+}
+
+.bajada-footer{
+	display:flex;
+	p{
+	    margin-top: 47px;
+	    margin-bottom: 54px;
+	    color: white;
+	    padding: 10px;
+	    position: relative;
+	    left: -143px;
+	    font-weight: 100;
+	    font-size: 13px;
+	}
+	p:hover{
+		color:$color_magenta;
+		cursor: pointer;
+	}
+}
+
+.bajada-der{
+	display:flex;
+	p{
+	    margin-top: 47px;
+	    margin-bottom: 54px;
+	    color: white;
+	    padding: 10px;
+	    position: relative;
+	    left: -143px;
+	    font-weight: 100;
+	    font-size: 13px;
+	}
+	p:hover{
+		color:$color_magenta;
+		cursor: pointer;
+	}
+}
