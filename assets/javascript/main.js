@@ -40,5 +40,29 @@ $(document).ready(function(){
 	$('.slider').slider('next');
 	// Previous slide
 	$('.slider').slider('prev');
+
+	/* NEWSLETTER */
+	$(".btn-subscribe").click(function(event) {
+		var email = $("#email").val();
+		if(!(/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(email))){
+			aler("Please enter a valid email");
+		}
+	});
+
+	/* CONTACTO */
+
+	$("#sendmsg").click(function(event) {
+		var texto = $("#textarea1").val();
+		var name = $("#namemsg").val();
+		var subjetmsg = $("#subjetmsg").val();
+
+		if(name.length == 0){
+			alert("Please enter your name");
+		}else if(subjetmsg.length== 0){
+			alert("Please enter subject");
+		} else if(texto.length == 0){
+			alert("Please enter your message");
+		}
+	});
       
 })

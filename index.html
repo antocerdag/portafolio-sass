@@ -29,14 +29,14 @@ Custom Backgrounds</a></li>
 	    <li><a class="dropdown-txt " href="#!"><i class="fa fa-money icono-drop" aria-hidden="true"></i>WooComerce Ready</a></li>
 	  </ul>
 	  <ul id="dropdown2" class="dropdown-content">
-	    <li><a class="dropdown-txt" href="#!"><i class="fa fa-star" aria-hidden="true"></i>Features</a></li>
-	    <li><a class="dropdown-txt" href="#!"><i class="fa fa-info-circle" aria-hidden="true"></i>About</a></li>
-	    <li><a class="dropdown-txt" href="#!"><i class="fa fa-users" aria-hidden="true"></i>Our Team</a></li>
-	    <li><a class="dropdown-txt" href="#!"><i class="fa fa-usd" aria-hidden="true"></i>Price</a></li>
-	    <li><a class="dropdown-txt" href="#!"><i class="fa fa-commenting" aria-hidden="true"></i>Testimonials</a></li>
-	    <li><a class="dropdown-txt" href="#!"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Subscribe</a></li>
-	    <li><a href="#!" class="dropdown-txt" ><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Blog</a></li>
-	    <li><a class="dropdown-txt" href="#!"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</a></li>
+	    <li><a class="dropdown-txt" href="#features"><i class="fa fa-star" aria-hidden="true"></i>Features</a></li>
+	    <li><a class="dropdown-txt" href="#video"><i class="fa fa-info-circle" aria-hidden="true"></i>About</a></li>
+	    <li><a class="dropdown-txt" href="#team"><i class="fa fa-users" aria-hidden="true"></i>Our Team</a></li>
+	    <li><a class="dropdown-txt" href="#plan"><i class="fa fa-usd" aria-hidden="true"></i>Price</a></li>
+	    <li><a class="dropdown-txt" href="#clientes"><i class="fa fa-commenting" aria-hidden="true"></i>Testimonials</a></li>
+	    <li><a class="dropdown-txt" href="#plan"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Subscribe</a></li>
+	    <li><a href="#blog" class="dropdown-txt" ><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Blog</a></li>
+	    <li><a class="dropdown-txt" href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</a></li>
 	  </ul>
   <nav>
     <div class="navbar-fixed">
@@ -49,16 +49,16 @@ Custom Backgrounds</a></li>
 	       	</a>
 	       </li>
 	       <li>
-	       	<a href="#" class="menu-txt">
+	       	<a href="#plan" class="menu-txt">
 	       		<i class="material-icons left">shopping_basket</i>SHOP
 	       	</a>
 	       </li>
 	       <li>
-	       	<a href="#" class="menu-txt"><i class="material-icons left">description</i>BLOG
+	       	<a href="#blog" class="menu-txt"><i class="material-icons left">description</i>BLOG
 	       	</a>
 	       </li>
 	       <li>
-	       	<a href="#" class="menu-txt"><i class="material-icons left">email</i>CONTACT
+	       	<a href="#contact" class="menu-txt"><i class="material-icons left">email</i>CONTACT
 	       	</a>
 	       </li>
 	       <a type="button" class="waves-effect waves-red btn-small center-align boton-buy ">
@@ -90,8 +90,7 @@ Custom Backgrounds</a></li>
   </div>
 
  </nav>
- <!-- SECCION VIDEO -->
- <section class=" caja z-depth-3">
+ <section class="caja z-depth-3" id="features">
 	<div class="container">
 	     <div class="row ">
 	       <div class="offset-m1 col m10 s12 center-align">
@@ -116,7 +115,8 @@ Custom Backgrounds</a></li>
 	     		</div>
 	     </div>
  </section>
- <section class="video">
+ <!-- SECCION VIDEO -->
+ <section class="video" id="video">
  		<div class="container-fluid">
  			<div class="row">
 				<div class="col m12 s12 ">
@@ -144,7 +144,7 @@ Custom Backgrounds</a></li>
  		</div>
  </section>
  <!-- SECCION PRODUCTOS -->
- <section class="productos">
+ <section class="productos" id="productos">
  	<div class="container-fluid">
 			<div class="row">
 				<div class="col m12 s12">
@@ -223,7 +223,7 @@ Custom Backgrounds</a></li>
  	</div>
  </section>
  <!-- SECCION PORTAFOLIO -->
- <section class="portfolio">
+ <section class="portfolio" id="portfolio">
  	<div class="container-fluid">
  		<div class="row">
  			<div class="col s12 m12">
@@ -334,7 +334,7 @@ Custom Backgrounds</a></li>
  	</div>
  </section>
  <!-- SECCION TEAM -->
- <section class="team">
+ <section class="team" id="team">
  	<div class="container-fluid">
  		<div class="row">
  			<div class="col m12 s12">
@@ -445,7 +445,7 @@ Custom Backgrounds</a></li>
  	</div>
  </section>
  <!-- SECCION PLAN -->
- <section class="plan">
+ <section class="plan" id="plan">
  	<div class="container-fluid">
  		<div class="row">
  			<div class="col m4 s12">
@@ -500,7 +500,7 @@ Custom Backgrounds</a></li>
  	</div>
  </section>
  <!-- SECCION CLIENTES -->
- <section class="clientes">
+ <section class="clientes" id="clientes">
  	<div class="container-fluid">
  		<div class="row">
  			<div class="col m12 s12 center-align">
@@ -541,7 +541,7 @@ Custom Backgrounds</a></li>
 	 				<div class="box-email center-align">
 	 					<div class="caja-input">
 				          <i class="fa fa-envelope" aria-hidden="true"></i>
-				          <input placeholder="Your Email Here" class="input-email" type="text" >
+				          <input id="email" placeholder="Your Email Here" class="input-email" type="text" >
 				          <a class="waves-effect waves-light btn-large btn-subscribe">Subscribe</a>
 				        </div>
 	 				</div>
@@ -551,7 +551,7 @@ Custom Backgrounds</a></li>
  	</div>
  </section>
  <!-- SECCION BLOG -->
- <section class="blog">
+ <section class="blog" id="blog">
  	<div class="container-fluid">
  		<div class="row">
  			<div class="col m12 s12 center-align">
@@ -581,7 +581,7 @@ Custom Backgrounds</a></li>
  		</div>
  	</div>
  </section>
- <section class="touch">
+ <section class="touch" id="contact">
 	 <div class="oversub">
 	 	<div class="container-fluid">
 	 		<div class="row">
@@ -611,7 +611,7 @@ Custom Backgrounds</a></li>
 			            <div class="card-content white-text inputs-tarjeta">
 			            	<div class="row">
 			            		<div class="col m6">
-			            		<input type="text" placeholder="Your name">
+			            		<input id="namemsg" type="text" placeholder="Your name">
 				            	</div>
 				            	<div class="col m6">
 				            		<input type="text" placeholder="Your Email">
@@ -619,7 +619,7 @@ Custom Backgrounds</a></li>
 			            	</div>
 			            	<div class="row">
 			            		<div class="col m12">
-			            			<input type="text" placeholder="Subject">
+			            			<input id="subjetmsg" type="text" placeholder="Subject">
 			            		</div>
 			            	</div>
 			            	<div class="row">
@@ -629,7 +629,7 @@ Custom Backgrounds</a></li>
 			            	</div>
 			            	<div class="row">
 			            		<div class="col m6 right">
-			            			<a class="waves-effect waves-light btn boton-see"><p>SEND MESSAGE</p></a>
+			            			<a id="sendmsg" class="waves-effect waves-light btn boton-see"><p>SEND MESSAGE</p></a>
 			            		</div>
 			            	</div>
 			            </div>
@@ -639,7 +639,7 @@ Custom Backgrounds</a></li>
 	 	</div>
 	 </div>
  </section>
-<section class="footer">
+<section class="footer" id="footer">
     <div class="container">
     	<div class="row">
              <div class="col m4 s12 pull-m2">
@@ -679,34 +679,34 @@ Custom Backgrounds</a></li>
              		</div>
              	</div>
              </div>
-             <div class="col m4 s12 push-m2">
+             <div class="col m4 push-m2">
              	<h5 class="titulosfooter">Instagram Feed</h5>
 					<div class="fotosinsta">
 						<div class="row">
-							<div class="col m3 center-align">
+							<div class="col m3 s12 center-align">
 								<img class="instafoto" src="assets/img/img_instagram_1.jpg" alt="">
 							</div>
-							<div class="col m3 center-align">
+							<div class="col m3 s12 center-align">
 								<img class="instafoto" src="assets/img/img_instagram_2.jpg" alt="">
 							</div>
-							<div class="col m3 center-align">
+							<div class="col m3 s12 center-align">
 								<img class="instafoto" src="assets/img/img_instagram_3.jpg" alt="">
 							</div>
-							<div class="col m3 center-align">
+							<div class="col m3 s12 center-align">
 								<img class="instafoto" src="assets/img/img_instagram_4.jpg" alt="">
 							</div>
 						</div>
 						<div class="row">
-							<div class="col m3 center-align">
+							<div class="col m3 s12 center-align">
 								<img class="instafoto" src="assets/img/img_instagram_5.jpg" alt="">
 							</div>
-							<div class="col m3 center-align">
+							<div class="col m3 s12 center-align">
 								<img class="instafoto" src="assets/img/img_instagram_6.jpg" alt="">
 							</div>
-							<div class="col m3 center-align">
+							<div class="col m3 s12 center-align">
 								<img class="instafoto" src="assets/img/img_instagram_7.jpg" alt="">
 							</div>
-							<div class="col m3">
+							<div class="col m3 s12 center-align">
 								<img class="instafoto" src="assets/img/img_instagram_8.jpg" alt="">
 							</div>
 						</div>
